@@ -341,5 +341,6 @@ tr:last-child td { border-bottom: 0; }
 
 @media (prefers-reduced-motion: reduce) { .live::before { animation: none; } .level, .btn { transition: none; } }
 
-.wa-icon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #25d366; color: #fff; transition: transform 0.15s; }
+.wa-icon { position: fixed; right: 18px; bottom: 18px; z-index: 31; display: inline-flex; align-items: center; justify-content: center; width: 52px; height: 52px; border-radius: 50%; background: #25d366; color: #fff; box-shadow: 0 10px 24px -8px rgba(0, 0, 0, 0.4); transition: transform 0.15s; }
+.wa-icon.above { bottom: 80px; }
 .wa-icon:hover { transform: scale(1.08); }
