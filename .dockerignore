@@ -1,0 +1,12 @@
+**/node_modules
+**/.env
+**/.env.*
+!**/.env.example
+client/dist
+server/uploads/public/*
+server/uploads/private/*
+.git
+.gitignore
+*.md
+Dockerfile
+.dockerignore
