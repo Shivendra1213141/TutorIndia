@@ -340,3 +340,6 @@ tr:last-child td { border-bottom: 0; }
 .pager { display: flex; gap: 8px; justify-content: center; margin-top: 20px; align-items: center; }
 
 @media (prefers-reduced-motion: reduce) { .live::before { animation: none; } .level, .btn { transition: none; } }
+
+.wa-icon { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: #25d366; color: #fff; transition: transform 0.15s; }
+.wa-icon:hover { transform: scale(1.08); }

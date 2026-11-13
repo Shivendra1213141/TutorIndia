@@ -6,6 +6,8 @@
 export const BRAND = 'TutorSetu';
 export const TAGLINE = 'Verified home tutors near you, KG to Class 12, JEE & NEET';
 export const REGION = 'Uttar Pradesh';
+// WhatsApp group invite link (WhatsApp > Group info > Invite via link). Replace with your own.
+export const WHATSAPP_GROUP_URL = 'https://chat.whatsapp.com/Hx26RdvriUG9EsKHVpRRPo?s=cl&p=i&mlu=4&ilr=4&iam=2';
 
 /* ---------- Photos ----------
  * Run `npm run images` (in client/) once to download these into public/images/ so they are
